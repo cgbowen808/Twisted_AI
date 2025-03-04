@@ -1,58 +1,33 @@
-/* General Page Styling */
+/* Ensure Full Black Background */
 body {
-  font-family: 'Tomorrow', sans-serif;
-  background-color: #0d0d0d;
-  text-align: center;
-  color: white;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+    background-color: #000000 !important;
+    margin: 0;
+    padding: 0;
+    font-family: "Tomorrow", sans-serif;
 }
 
-/* Full-Screen Canva Embed */
-.canva-container {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+/* Style the Login Button */
+#loginButton {
+    position: absolute;
+    top: 75%; /* Adjust if needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-family: "Tomorrow", sans-serif;
+    color: #000000; /* Black text */
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: linear-gradient(145deg, #d1d1d1, #ffffff);
+    border-radius: 50px;
+    border: 2px solid #808080; /* Chrome-like border */
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
-.canva-container iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-/* Login Text in Video Box */
-.login-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
-}
-
-.login-box a {
-  font-family: 'Harlow Solid', cursive;
-  font-size: 2rem;
-  color: #ff66cf;
-  text-decoration: none;
-  text-shadow: 2px 2px 10px rgba(255, 102, 207, 0.8);
-}
-
-.login-box a:hover {
-  color: #ff33b3;
-  text-shadow: 2px 2px 15px rgba(255, 51, 179, 1);
-}
-
+/* Hover Effect for Chrome Look */
+#loginButton:hover {
+    background: linear-gradient(145deg, #ffffff, #b0b0b0);
+    box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.3);
 }
