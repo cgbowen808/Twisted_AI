@@ -26,6 +26,7 @@ body {
     height: 500px;
     border: none;
     background-color: #000000;
+    pointer-events: none; /* Blocks interactions to prevent controls */
 }
 
 /* Description Text */
@@ -92,4 +93,5 @@ body {
     background: linear-gradient(145deg, #ffffff, #b0b0b0);
     box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.3);
 }
+
 
