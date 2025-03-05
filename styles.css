@@ -29,7 +29,7 @@ body {
     pointer-events: none; /* Blocks interactions to prevent controls */
 }
 
-/* Description Text */
+/* Description Text (Now Separate) */
 .description {
     text-align: center;
     font-size: 18px;
